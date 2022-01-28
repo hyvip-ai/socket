@@ -1,0 +1,48 @@
+.container{
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.container .header{
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    text-align: center;
+}
+.container .form{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+.container .form input{
+    display: block;
+    width: 80%;
+    padding: 0.6rem; border: none;
+    outline: none;
+    border-radius: 4px 0px 0px 4px;
+}
+.container .form button{
+    padding: 0.6rem;
+    /* width: 20%; */
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 4px 4px 0px;
+}
+.body{
+    border: 5px solid rgb(230, 230, 230);
+    padding: 1rem;
+}
+.message{
+    display: flex;
+
+}
+.message.mine{
+    justify-content: flex-end;
+}
